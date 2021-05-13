@@ -1,39 +1,41 @@
-# Getting Started with Create React App
+# Covid-19 App WITHE REACT.JS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A flexible and responsive carousel component for react
 
-## Available Scripts
+## How to Use ?
 
-In the project directory, you can run:
+I have used Coronavirus's API in it which keeps the data of the entire country. And that's how I put it in the table of HTML (Like). In the proof below, the screenshots of which the pictures are given....
 
-### `npm start`
+### Installing
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Using npm:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+`$ npm install axios`
 
-### `npm test`
+# Using bower:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`$ bower install axios`
 
-### `npm run build`
+# Using yarn:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`$ yarn add axios`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## NOTE: 
+  async/await is part of ECMAScript 2017 and is not supported in Internet Explorer and older browsers, so use with caution.
+  
+### Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+  
+ 
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ith the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
