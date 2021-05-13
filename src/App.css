@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&display=swap");
+
+
+body {
+  padding: 2rem 2rem;
+  background-color: rgb(243, 213, 175);
+}
+img {
+  height: 80px;
+  margin-bottom: 20px;
+}
+.font {
+  font-size: 13vh;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+}
+span {
+  font-size: 20px;
+  margin-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #db9f6e;
+  }
+  .font {
+    font-size: 10vh;
+    font-family: "Abril Fatface";
+  }
+  img {
+    height: 62px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
